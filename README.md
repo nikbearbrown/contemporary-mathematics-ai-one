@@ -1,33 +1,46 @@
 # Contemporary Mathematics (AI Plus One)
 
-**Status:** Compact working draft
-
 ## About the book
 
-Use mathematics to make five decisions for one fictional community event. Work out how many people the food can serve, whether a route is usable, how to split room hours, how to count a vote, and which weather risk the event can afford. Each chapter gives you a result to reproduce and an assumption that could change the decision.
+This compact rough draft is for first college quantitative reasoning learners and independent readers comfortable with fractions, percentages and arithmetic. Use one fictional community event to plan food, check a route, divide scarce room slots, count a vote, and decide what weather risk you can afford. You can work on paper; Python checks are optional.
 
-For first college quantitative reasoning and independent readers comfortable with fractions, percentages, and basic arithmetic. You can work on paper. The optional checks use Python's standard library and no model account. This is original first-draft material, not an expert-edited replacement for an existing edition or course.
+## Start reading
 
-## Learning outcomes
+Start with [Count what you can serve](chapters/01-count-what-you-can-serve.md). Use the [complete chapter guide](#chapter-guide) to find every chapter in reading order.
 
-- Convert units, find whole-number capacity limits, and distinguish a reserve from unused supply.
-- Compare directed routes by both feasibility and time, including changes in access.
-- Calculate and defend an allocation or vote tally under an explicitly stated rule.
-- Separate expected value from downside risk, and fixed increases from compounded growth.
-- Explain a decision through a reproducible calculation and a changed-input check.
+## Chapter guide
 
-## Read the book
+### Part 1 · Plan a feasible event
 
-Start with [Count what you can serve](chapters/01-count-what-you-can-serve.md) or browse the [chapters folder](chapters/).
+1. [Count what you can serve](chapters/01-count-what-you-can-serve.md): Check units, service amounts and reserves before promising capacity.
+2. [Check the route before you time it](chapters/02-check-the-route-before-you-time-it.md): Trace the permitted route through the venue and test where travel times apply.
+3. [Divide the room slots](chapters/03-divide-the-room-slots.md): Compare slot apportionments and show what can change when capacity increases.
 
-1. [Count what you can serve](chapters/01-count-what-you-can-serve.md): Units, whole packages, and the reserve.
-2. [Check the route before you time it](chapters/02-check-the-route-before-you-time-it.md): Directed connections, minutes, and verified access.
-3. [Divide the room slots](chapters/03-divide-the-room-slots.md): Quotas, remainders, and the effect of one extra slot.
-4. [Count the vote three ways](chapters/04-count-the-vote-three-ways.md): First choices, transfers, and head-to-head comparisons.
-5. [Check the average and the downside](chapters/05-check-the-average-and-the-downside.md): Scenario probability, loss limits, and compounding.
+### Part 2 · Decide under disagreement and risk
 
-## Resources
+4. [Count the vote three ways](chapters/04-count-the-vote-three-ways.md): Apply three counting rules to the same ballots and explain why results can diverge.
+5. [Check the average and the downside](chapters/05-check-the-average-and-the-downside.md): Calculate a weighted average and show the downside that average can hide.
 
-- [Decision poster and rubric](practice/decision-poster.md): combine all five decisions and defend a changed assumption without a model.
-- [Decision poster key](practice/decision-poster-key.md) and [voting transfer key](practice/voting-transfer-key.md): open after an independent attempt.
-- [Optional arithmetic checks](checks/): run each `check_*.py` from the repository root with Python 3. The checks verify the fictional examples, not actual venue access, voting policy, or weather forecasts.
+## How to teach or study it
+
+Plan capacity before moving people through the site; allocate space before choosing a vote rule, then put a price on uncertainty. Work the five decisions before checking. For the [decision poster capstone](practice/decision-poster.md), show a reproducible calculation and an assumption that could change each recommendation. Compare your work with the [poster key](practice/decision-poster-key.md) only after the first attempt.
+
+## What’s in this repo
+
+| Resource | Link | Coverage | Status |
+| --- | --- | --- | --- |
+| Manuscript | [README.md](chapters/README.md) | 5 written chapters | Compact rough draft |
+| Exercises and assessment | [decision-poster.md](practice/decision-poster.md) | 1 final decision poster; exercises in chapters | Draft |
+| Answer keys | [decision-poster-key.md](practice/decision-poster-key.md), [voting-transfer-key.md](practice/voting-transfer-key.md) | 2 separate keys | Included |
+| Code | [README.md](checks/README.md) | 5 standard-library Python checks | Included |
+| Datasets | [README.md](chapters/README.md) | Fictional data embedded in the exercises | No standalone dataset found |
+| Blueprint or syllabus | — | — | Not found |
+| Slides | — | — | Not found |
+| Standalone quizzes | — | — | Not found |
+| Figure assets | — | — | Not found |
+| Videos | — | — | Not found |
+| Web or download edition | — | — | Not found |
+
+## Credits, license, and corrections
+
+No license file was found; public access does not establish reuse rights. Report errors in the [repository issues](https://github.com/nikbearbrown/contemporary-mathematics-ai-one/issues), with the chapter and a precise location.
